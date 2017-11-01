@@ -11,9 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('main-homepage');
-});
-Route::get('/about', function () {
-    return view('layout/about');
-});
+Route::get('/', 'HomeController@getHome')->name('home');
+Route::get('/sports', 'HomeController@getSports')->name('getSports');
+Route::get('/weather', 'HomeController@getWeather')->name('getWeather');
