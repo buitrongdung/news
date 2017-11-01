@@ -13,7 +13,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
-
+    define('BASE_PUBLIC', 'public/'),
     /*
     |--------------------------------------------------------------------------
     | Application Environment

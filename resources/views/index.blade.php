@@ -90,7 +90,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class="active"><a href="/">Home</a></li>
                             <li><a href="{{route('getWeather')}}">Weather</a></li>
                             <li><a href="{{route('getSports')}}">Sports</a></li>
                             <li class="dropdown">
@@ -190,7 +190,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="clearfix"></div>
         </div>
         <div class="clearfix"></div>
-        <script type="text/javascript" src="js/jquery.marquee.min.js"></script>
+        <script type="text/javascript" src="{{asset('public/js/jquery.marquee.min.js')}}"></script>
         <script>
             $('.marquee').marquee({pauseOnHover: true});
             //@ sourceURL=pen.js
@@ -358,12 +358,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </header>
                 <div class="life-style-grids">
                     <div class="life-style-left-grid">
-                        <a href="single.html"><img src="images/l1.jpg" alt=""/></a>
+                        <a href="single.html"><img src="{{asset('images/l1.jpg')}}" alt=""/></a>
                         <a class="title" href="single.html">It is a long established fact that a reader will be
                             distracted.</a>
                     </div>
                     <div class="life-style-right-grid">
-                        <a href="single.html"><img src="images/l2.jpg" alt=""/></a>
+                        <a href="single.html"><img src="{{asset('images/l2.jpg')}}" alt=""/></a>
                         <a class="title" href="single.html">There are many variations of passages of Lorem Ipsum
                             available.</a>
                     </div>
@@ -371,12 +371,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="life-style-grids">
                     <div class="life-style-left-grid">
-                        <a href="single.html"><img src="images/l3.jpg" alt=""/></a>
+                        <a href="single.html"><img src="{{asset('images/l3.jpg')}}" alt=""/></a>
                         <a class="title" href="single.html">Contrary to popular belief, Lorem Ipsum is not simply random
                             text.</a>
                     </div>
                     <div class="life-style-right-grid">
-                        <a href="single.html"><img src="images/l4.jpg" alt=""/></a>
+                        <a href="single.html"><img src="{{asset('images/l4.jpg')}}" alt=""/></a>
                         <a class="title" href="single.html">Sed ut perspiciatis unde omnis iste natus error sit
                             voluptatem.</a>
                     </div>
@@ -391,46 +391,46 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </header>
                         <div class="c-sports-main">
                             <div class="c-image">
-                                <a href="single.html"><img src="images/bus1.jpg" alt=""/></a>
+                                <a href="single.html"><img src="{{asset('images/bus1.jpg')}}" alt=""/></a>
                             </div>
                             <div class="c-text">
                                 <h6>Lorem Ipsum</h6>
                                 <a class="power" href="single.html">It is a long established fact that a reader</a>
                                 <p class="date">On Feb 25, 2015</p>
-                                <a class="reu" href="single.html"><img src="images/more.png" alt=""/></a>
+                                <a class="reu" href="single.html"><img src="{{asset('images/more.png')}}" alt=""/></a>
                                 <div class="clearfix"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="s-grid-small">
                             <div class="sc-image">
-                                <a href="single.html"><img src="images/bus2.jpg" alt=""/></a>
+                                <a href="single.html"><img src="{{asset('images/bus2.jpg')}}" alt=""/></a>
                             </div>
                             <div class="sc-text">
                                 <h6>Lorem Ipsum</h6>
                                 <a class="power" href="single.html">It is a long established fact that a reader</a>
                                 <p class="date">On Mar 21, 2015</p>
-                                <a class="reu" href="single.html"><img src="images/more.png" alt=""/></a>
+                                <a class="reu" href="single.html"><img src="{{asset('images/more.png')}}" alt=""/></a>
                                 <div class="clearfix"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="s-grid-small">
                             <div class="sc-image">
-                                <a href="single.html"><img src="images/bus3.jpg" alt=""/></a>
+                                <a href="single.html"><img src="{{asset('images/bus3.jpg')}}" alt=""/></a>
                             </div>
                             <div class="sc-text">
                                 <h6>Lorem Ipsum</h6>
                                 <a class="power" href="single.html">It is a long established fact that a reader</a>
                                 <p class="date">On Jan 25, 2015</p>
-                                <a class="reu" href="single.html"><img src="images/more.png" alt=""/></a>
+                                <a class="reu" href="single.html"><img src="{{asset('images/more.png')}}" alt=""/></a>
                                 <div class="clearfix"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="s-grid-small">
                             <div class="sc-image">
-                                <a href="single.html"><img src="images/bus4.jpg" alt=""/></a>
+                                <a href="single.html"><img src="{{asset('images/bus4.jpg')}}" alt=""/></a>
                             </div>
                             <div class="sc-text">
                                 <h6>Lorem Ipsum</h6>
