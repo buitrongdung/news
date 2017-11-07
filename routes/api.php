@@ -16,3 +16,10 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::resource('images', 'ImagesController');
+Route::get('images','ImagesController@index');
+Route::post('images', 'ImagesController@store');
+Route::group(['prefix' => 'vi', 'middleware' => 'cors'], function() {
+   Route::resource('posts', 'PostsController');
+});
