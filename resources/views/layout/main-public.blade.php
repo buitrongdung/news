@@ -5,6 +5,10 @@
     <link href="{{asset('public/css/bootstrap.css')}}" rel='stylesheet' type='text/css'/>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="{{asset('public/js/jquery.min.js')}}"></script>
+    <script src="{{asset('public/js/jquery-ui/jquery.js')}}"></script>
+    <script src="{{asset('public/js/jquery-ui/jquery-ui.js')}}"></script>
+    <script src="{{asset('public/js/home.js')}}"></script>
+    <link href="{{asset('public/js/jquery-ui/jquery-ui.css')}}" rel="stylesheet" type="text/css" media="all"/>
     <!-- Custom Theme files -->
     <link href="{{asset('public/css/style.css')}}" rel="stylesheet" type="text/css" media="all"/>
     <!-- Custom Theme files -->
@@ -152,7 +156,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <div class="search-box">
                                 <div id="sb-search" class="sb-search">
                                     <form>
-                                        <input class="sb-search-input" placeholder="Enter your search term..."
+                                        <input id="search-weather" class="sb-search-input" placeholder="Enter your search term..."
                                                type="search" name="search" id="search">
                                         <input class="sb-search-submit" type="submit" value="">
                                         <span class="sb-icon-search"> </span>
